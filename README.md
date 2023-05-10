@@ -45,7 +45,7 @@
   |     SIDD_small_-srgb_only      |          SIDD 小型sRGB数据集（code2中使用的训练集）          | [百度网盘](https://pan.baidu.com/s/1sAj3v6SY_Y3u-anMdcrt0Q?pwd=1234) |
   |        SIDD_MIDDLE_sRGB        |           SIDD中型sRGB训练集（本项目使用的训练集）           | [百度网盘](https://pan.baidu.com/s/1wSmReyzp2L9qfvPetde6ag?pwd=1234) |
   |          Mi3_Aligned           |                 code2中其他模型使用的数据集                  | [百度网盘](https://pan.baidu.com/s/1At5vRVAmUJP-iALXU9UFrQ?pwd=1234) |
-  |              DND               |                 paper里的模型测试对比验证集                  |                           百度网盘                           |
+  |              DND               |                 paper里的模型测试对比验证集                  |      [百度网盘](https://pan.baidu.com/s/1J2JLAumsuRtWWGkXHAdJOw?pwd=1234)                          |
   |                                |                                                              |                                                              |
 
   SIDD数据集官网服务器连接有时断联，提供百度网盘连接参考。
@@ -85,13 +85,13 @@ CPU：		Intel Core i5-10300H
 
 ## 文件结构
 
-### back\src\main\java\org\app
+### back\src\main\java\org\app\
 
 - DownFileService.java下载文件方法
 - Controller.java中包含上传文件方法
 - PythonAgent.java调用PRIDNet进行处理的方法、PythonSRCNN.java调用SRCNN进行处理的方法
 
-### front\src\components
+### front\src\components\
 
 - CompareImage.vue对比界面实现
 - Home.vue首页
