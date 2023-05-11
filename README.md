@@ -111,7 +111,7 @@ CPU：		Intel Core i5-10300H
 
 ## 使用方法
 
-1. 将本项目解压到D:\目录下（否则要修改VUE、py等文件中的地址配置）
+1. 将本项目中的AIPicture文件夹解压到D:\目录下（否则要修改VUE、py等文件中的地址配置）
 2. 安装node.js18.15.0、JAVA JDK1.8.0
 3. 本地安装anaconda3并安装对应包和框架以运行testprid.py和testsrcnn.py
 4. 根据使用的虚拟环境路径修改PythonAgent.java和PythonSRCNN.java中的运行环境路径
