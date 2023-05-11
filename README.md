@@ -16,12 +16,6 @@
 
 ​	paperwithcode的denoising领域里PSNR值的[rank 2](https://paperswithcode.com/sota/color-image-denoising-on-darmstadt-noise) 
 
-### Keywords
-
-- Real Image Denoising
-- Channel Attention
-- Pyramid Pooling
-- Kernel Selecting
 
 ### Network
 
