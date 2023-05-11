@@ -7,11 +7,11 @@
 - The system interface using SpringBoot,Mybatis plus and Vue 
 ## 效果展示
 
-- 原噪声图
+原噪声图
 
 ![avatar](AIPicture/OriginalPicture/OriginalPicture.png)
 
-- 去噪超分后图像
+去噪超分后图像
 ![avatar](AIPicture/OriginalPicture/OriginalPicture_prid_srcnn_x3.jpg)
 
 ## 金字塔真实图像去噪网络(PRIDNet)参考资料
