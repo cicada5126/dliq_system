@@ -63,7 +63,7 @@
 
 ## 处理流程
 
-![avatar](figs/flow chart.png)
+![avatar](figs/flowchart.png)
 
 ## ***本地运行环境***
 
