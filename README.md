@@ -112,9 +112,10 @@ CPU：		Intel Core i5-10300H
 ## 使用方法
 
 1. 将本项目解压到D:\目录下（否则要修改VUE、py等文件中的地址配置）
-2. 本地安装anaconda3并安装对应包和框架以运行testprid.py和testsrcnn.py
-3. 根据使用的虚拟环境路径修改PythonAgent.java和PythonSRCNN.java中的运行环境路径
-4. 在D:\AIPicture\back\src\main\java\org\app\Python\pridnet\model\目录下添加PRIDNet模型文件。
+2. 安装node.js18.15.0、JAVA JDK1.8.0
+3. 本地安装anaconda3并安装对应包和框架以运行testprid.py和testsrcnn.py
+4. 根据使用的虚拟环境路径修改PythonAgent.java和PythonSRCNN.java中的运行环境路径
+5. 在D:\AIPicture\back\src\main\java\org\app\Python\pridnet\model\目录下添加PRIDNet模型文件。
    1. 模型框架和参数大小3.3G左右，可在md文件中的网盘连接下载。训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
    2. 或者使用train.py、train.ipynb自行进行训练模型，代码为autodl上使用jupterLab运行的部分源码。
 
