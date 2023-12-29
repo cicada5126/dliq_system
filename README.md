@@ -42,7 +42,7 @@
 - code1: [Code for the paper "Pyramid Real Image Denoising Network"](https://github.com/491506870/PRIDNet)（这是paper的github开源代码，使用tensorflow框架、只包含RAW域denoising的train和test代码及其他资料连接）
 - code2：[image-Denoising-using-Deep-Learning](https://github.com/chintan1995/Image-Denoising-using-Deep-Learning)（keras框架、针对sRGB文件,具体在Models/PRIDNet_256x256.ipynb中）
 
-### Dataset 
+### Dataset &&模型
 
 - |           数据集名称           |                             介绍                             |                           链接地址                           |
   | :----------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -54,9 +54,10 @@
   |        SIDD_MIDDLE_sRGB        |           SIDD中型sRGB训练集（本项目使用的训练集）           | [百度网盘](https://pan.baidu.com/s/1wSmReyzp2L9qfvPetde6ag?pwd=1234) |
   |          Mi3_Aligned           |                 code2中其他模型使用的数据集                  | [百度网盘](https://pan.baidu.com/s/1At5vRVAmUJP-iALXU9UFrQ?pwd=1234) |
   |              DND               |                 paper里的模型测试对比验证集                  |      [百度网盘](https://pan.baidu.com/s/1J2JLAumsuRtWWGkXHAdJOw?pwd=1234)                          |
-  |                                |                                                              |                                                              |
+  |          PRIDNet 模型         |        使用train.py代码训练               |             链接：https://pan.baidu.com/s/12jKh3MIfQieZQ-xzYZ719A?pwd=1234 提取码：1234                                                 |
 
   SIDD数据集官网服务器连接有时断联，提供百度网盘连接参考。
+  提供的PRIDNet模型在RTX A4000上训练，训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
 
 ## SRCNN参考
 
@@ -123,7 +124,7 @@ CPU：		Intel Core i5-10300H
 2. 本地安装anaconda3并安装对应包和框架以运行testprid.py和testsrcnn.py
 3. 根据使用的虚拟环境路径修改PythonAgent.java和PythonSRCNN.java中的运行环境路径
 4. 在D:\AIPicture\back\src\main\java\org\app\Python\pridnet\model\目录下添加PRIDNet模型文件。
-   1. 模型框架和参数大小3.3G左右，可在md文件中的网盘连接下载。训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
+   1. 模型框架和参数大小3.3G左右，可在该目录下的md文件中的网盘连接下载。训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
    2. 或者使用train.py、train.ipynb自行进行训练模型，代码为autodl上使用jupterLab运行的部分源码。
 
 5. 将模型放置后使用IDEA2020打开该项目，运行Application
