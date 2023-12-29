@@ -54,7 +54,7 @@
   |        SIDD_MIDDLE_sRGB        |           SIDD中型sRGB训练集（本项目使用的训练集）           | [百度网盘](https://pan.baidu.com/s/1wSmReyzp2L9qfvPetde6ag?pwd=1234) |
   |          Mi3_Aligned           |                 code2中其他模型使用的数据集                  | [百度网盘](https://pan.baidu.com/s/1At5vRVAmUJP-iALXU9UFrQ?pwd=1234) |
   |              DND               |                 paper里的模型测试对比验证集                  |      [百度网盘](https://pan.baidu.com/s/1J2JLAumsuRtWWGkXHAdJOw?pwd=1234)                          |
-  |          PRIDNet 模型         |        使用train.py代码训练               |             链接：https://pan.baidu.com/s/12jKh3MIfQieZQ-xzYZ719A?pwd=1234 提取码：1234                                                 |
+  |          PRIDNet 模型         |        使用train.py代码训练               |            [百度网盘](https://pan.baidu.com/s/12jKh3MIfQieZQ-xzYZ719A?pwd=1234)                                                    |
 
   SIDD数据集官网服务器连接有时断联，提供百度网盘连接参考。
   提供的PRIDNet模型在RTX A4000上训练，训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
