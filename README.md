@@ -54,10 +54,9 @@
   |        SIDD_MIDDLE_sRGB        |           SIDD中型sRGB训练集（本项目使用的训练集）           | [百度网盘](https://pan.baidu.com/s/1wSmReyzp2L9qfvPetde6ag?pwd=1234) |
   |          Mi3_Aligned           |                 code2中其他模型使用的数据集                  | [百度网盘](https://pan.baidu.com/s/1At5vRVAmUJP-iALXU9UFrQ?pwd=1234) |
   |              DND               |                 paper里的模型测试对比验证集                  |      [百度网盘](https://pan.baidu.com/s/1J2JLAumsuRtWWGkXHAdJOw?pwd=1234)                          |
-  |          PRIDNet 模型         |        使用train.py代码训练               |            [百度网盘](https://pan.baidu.com/s/12jKh3MIfQieZQ-xzYZ719A?pwd=1234)                                                    |
+  |          PRIDNet 模型         |        使用train.py代码训练               |     备份丢失，有需要请自行训练，   项目内有训练模型代码及注释                                  |
 
   SIDD数据集官网服务器连接有时断联，提供百度网盘连接参考。
-  提供的PRIDNet模型在RTX A4000上训练，训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
 
 ## SRCNN参考
 
@@ -124,8 +123,8 @@ CPU：		Intel Core i5-10300H
 2. 本地安装anaconda3并安装对应包和框架以运行testprid.py和testsrcnn.py
 3. 根据使用的虚拟环境路径修改PythonAgent.java和PythonSRCNN.java中的运行环境路径
 4. 在D:\AIPicture\back\src\main\java\org\app\Python\pridnet\model\目录下添加PRIDNet模型文件。
-   1. 模型框架和参数大小3.3G左右，可在该目录下的md文件中的网盘连接下载。训练次数为200次左右learning rate 为0.00009,模型在测试集上psnr为37.13可进一步训练以提高效果
-   2. 或者使用train.py、train.ipynb自行进行训练模型，代码为autodl上使用jupterLab运行的部分源码。
+   1. 文件名best_PRIDNet.h5或在testprid.py中修改文件路径best_models_path
+   2. 本项目未提供pridnet模型，请使用train.py、train.ipynb等自行进行训练模型，train.ipynb代码为autodl上使用jupterLab运行的部分源码。
 
 5. 将模型放置后使用IDEA2020打开该项目，运行Application
 6. 在终端输入cd front
